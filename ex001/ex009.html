@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagensSite/bheukerorg.ico" type="image/x-icon">
+    <title>Linguagem Python</title>
+</head>
+<body>
+    <h1>Introdução a linguagem Python</h1>
+    <img src="imagensSite/fundadorpython.jfif" alt="Fundador da linguagem python">
+    <p>
+        <a href="https://www.python.org/" target="_blank">Python</a> é uma linguagem de programação de alto nível,<sup>[6]</sup> interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por <a href="https://pt.wikipedia.org/wiki/Guido_Van_Rossum" target="_blank">Guido van Rossum</a> em 1991.<sup>[1]</sup> Atualmente, <q>possui um modelo de desenvolvimento comunitário</q>, aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation. Apesar de várias partes da linguagem possuírem padrões e especificações formais, a linguagem, como um todo, não é formalmente especificada. O padrão na pratica é a implementação <strong><a href="https://pt.wikipedia.org/wiki/CPython" target="_blank" rel="external">CPython</a></strong>.
+    </p>
+    <p>Segundo o fundador de Python</p>
+    <blockquote cite="https://pt.wikipedia.org/wiki/Python">
+        o que significa que ele continua a supervisionar o processo de desenvolvimento do Python, tomando decisões quando necessário.[2] Entretanto, em julho de 2018, ele anunciou que estaria se afastando deste função devido a desentendimentos com a equipe de desenvolvimento da linguagem Python. A discussão se deu por conta de discordâncias entre Rossum e a equipe de desenvolvedores, relacionada às novas propostas de atualização (PEP572) que romperia com os padrões de sintaxe da linguagem. A equipe alegava que "a sintaxe não ficaria tão boa para os padrões de Python". De acordo com equipe do Python no Brasil, Guido van Rossum se afasta somente desta função mas continua à frente do projeto.
+    </blockquote>
+    <img src="imagensSite/python.jfif" alt="Logotipo da linguagem python">
+    <h2>Objecto da Linguagem Python</h2>
+    <p>
+        A linguagem foi projetada com a filosofia de enfatizar a importância do esforço do programador sobre o esforço computacional. Prioriza a legibilidade do código sobre a velocidade ou expressividade. Combina uma sintaxe concisa e clara com os recursos poderosos de sua biblioteca padrão e por módulos e frameworks desenvolvidos por terceiros.
+
+        Python é uma linguagem de propósito geral de alto nível, multiparadigma, suporta o paradigma orientado a objetos, imperativo, funcional e procedural. Possui tipagem dinâmica e uma de suas principais características é permitir a fácil leitura do código e exigir poucas linhas de código se comparado ao mesmo programa em outras linguagens. Devido às suas características, ela é utilizada, principalmente, para processamento de textos, dados científicos e criação de CGIs para páginas dinâmicas para a web. Foi considerada pelo público a 3ª linguagem "mais amada", de acordo com uma pesquisa conduzida pelo site Stack Overflow em 2018<sup>[7]</sup> e está entre as 5 linguagens mais populares, de acordo com uma pesquisa conduzida pela RedMonk.<sup>[8]</sup>
+        
+        O nome Python teve a sua origem no grupo humorístico britânico Monty Python,<sup>[9]</sup> criador do programa Monty Python's Flying Circus, embora muitas pessoas façam associação com o réptil do mesmo nome (em português, píton ou pitão).
+    </p>
+    <img src="imagensSite/criadorpython.jfif" alt="Imagem do fundador da linguagem python">
+    <h2>História da linguagem</h2>
+    <p>
+        O Python foi concebido no final de 1989[6]<sup>[9]</sup> por Guido van Rossum no <em>Instituto de Pesquisa Nacional para Matemática e Ciência da Computação</em> <abbr title="National Research Institute for Mathematics and Computer Science">(CWI)</abbr>, nos Países Baixos, como um sucessor da ABC capaz de tratar exceções e prover interface com o sistema operacional Amoeba<sup>[10]</sup> através de scripts. Também da CWI, a linguagem ABC era mais produtiva que C, ainda que com o custo do desempenho em tempo de execução. Mas ela não possuía funcionalidades importantes para a interação com o sistema operacional, uma necessidade do grupo. Um dos focos primordiais de Python era aumentar a produtividade do programador.
+    </p>
+    <img src="imagensSite/blogPython.jfif" alt="">
+    <h2>Inspiração da criação da linguagem</h2>
+    <p>
+        Python foi feita com base na linguagem ABC, possui parte da sintaxe derivada do C, compreensão de listas, funções anonimas e função map de Haskell. Os iteradores são baseados na Icon, tratamentos de exceção e módulos da Modula-3, expressões regulares de Perl.
+    </p>
+    <img src="imagensSite/codeextra.jfif" alt="Codígo python" rel="external">
+    <p>
+        Em 1991, Guido publicou o código <em>(nomeado versão 0.9.0)</em> no grupo de discussão alt.sources.<sup>[1]</sup> Nessa versão já estavam presentes classes com herança, tratamento de exceções, funções e os tipos de dado nativos list, dict, str, e assim por diante. Também estava presente nessa versão um sistema de módulos emprestado do Modula-3. O modelo de exceções também lembrava muito o do Modula-3, com a adição da opção else clause.<sup>[10]</sup>Em 1994 foi formado o principal fórum de discussão do Python, comp.lang.python, um marco para o crescimento da base de usuários da linguagem.
+    </p>
+    <img src="imagensSite/cobrapython.jfif" alt="">
+    <h2>Analisando condições em python</h2>
+    <pre>
+        <code>
+            num = int(input('Digite um valor: '))
+            if num % 2 == 0:
+                print('Número PARAR')
+            else:
+                print('Número IMPAR')
+        </code>
+    </pre>
+
+
+    <ol type="a" start="1">
+        <li>Exception	Cause of Error</li>
+        <li>IndexError	Raised when the index of a sequence is out of range</li>
+        <li>KeyError	Raised when a key is not found in a dictionary</li>
+        <li>KeyboardInterrupt	Raised when the user hits the interrupt key ( Ctrl+C or Delete )</li>
+        <li>MemoryError	Raised when an operation runs out of memory</li>
+    </ol>
+    <ul>
+        <li>Exception	Cause of Error</li>
+        <li>IndexError	Raised when the index of a sequence is out of range</li>
+        <li>KeyError	Raised when a key is not found in a dictionary</li>
+        <li>KeyboardInterrupt	Raised when the user hits the interrupt key ( Ctrl+C or Delete )</li>
+        <li>MemoryError	Raised when an operation runs out of memory</li>
+    </ul>
+
+    <h2>Listas aninhadas</h2>
+    <ol>
+        <li>linguagens de programação</li>
+            <ol>
+                <li>Python</li>
+                <li>Javascript</li>
+            </ol>
+        </li>
+    </ol>
+    <ul>
+        <li>
+            <li>Pontos</li>
+            <ul>
+                <li>Tempo</li>
+                <li>Realidade</li>
+            </ul>
+        </li>
+        <li>
+            <li>Logica</li>
+            <ul>
+                <li>Programa</li>
+                <li>Processo</li>
+            </ul>
+        </li>
+    </ul>
+    <dt>Python</dt>
+    <dd>Lingua de programação de orientação a objecto</dd>
+</body>
+</html>
