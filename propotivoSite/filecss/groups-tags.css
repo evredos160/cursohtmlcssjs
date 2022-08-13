@@ -1,0 +1,64 @@
+@charset "UTF-8"; 
+
+
+.body-groups-tags {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-center {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-header {
+    display:block;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 1px 1px 1px burlywood;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    color: aliceblue;
+}
+
+a:hover {
+    color: darkgoldenrod;
+}
+
+.main-default {
+    display: block;
+}
+
+.article-1 {
+    display: contents;
+    padding: 10px;
+}
+
+.section-video {
+    display: block;
+}
+
+p {
+    text-align: justify;
+}
+
+.article-video-externos {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer-default {
+    display: block;
+    max-width: 100%;
+    padding: 10% 1% 10% 1%;
+    background-color: rgb(85, 50, 50);
+}
+

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+* {}
+
+body {
+    background-image: linear-gradient(10deg, #5393c7, #42424b4b, #a5c08900);
+    background-attachment: fixed; /* Anexo do fundo, permite definir o anexo do fundo */
+}
+
+li {
+    float: none;
+}
